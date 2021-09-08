@@ -14,10 +14,11 @@ h1 {
 .hair {
   position: absolute;
   width: 806.07px;
-  height: 770.55px;
+  height: 750px;
   left: 119.36px;
-  top: 180.95px;
+  top: 200.95px;
   background: #394E59;
+  border-radius: 340px;
 }
 
 /* face */
@@ -49,46 +50,69 @@ h1 {
   width: 248.93px;
   height: 196.41px;
   left: 571px;
-  top: 784.71px;
+  top: 755.71px;
 
   background: #EDD6D1;
 }
 
-/* eyelash2 */
-.eyelash2 {
+/* eyelashleft */
+.eyelashleft {
   position: absolute;
   width: 178px;
   height: 82px;
-  left: 289px;
+  left: 299px;
   top: 837px;
+  transform: matrix(-1, -0.01, 0.2, 1, 0, 0);
 
   background: #394E59;
   border: 1px solid #394E59;
 }
 
-/* eyelash1 */
-.eyelash1 {
+/* eyelashright */
+.eyelashright {
   position: absolute;
   width: 168.5px;
   height: 77.65px;
-  left: 776.03px;
+  left: 610.03px;
   top: 837px;
+  transform: matrix(-1, 0.01, -0.2, 1, 0, 0);
 
   background: #394E59;
   border: 1px solid #394E59;
-  transform: matrix(-1, 0.07, 0.07, 1, 0, 0);
 }
 
-/* eyeoutlines */
-.eyeoutlines {
+/* eyeoutlineleft */
+.eyeoutlineleft {
   position: absolute;
-  width: 421.35px;
-  height: 82.39px;
-  left: 328.97px;
-  top: 843.96px;
-
+  width: 123px;
+  height: 75px;
+  left: 324.97px;
+  top: 842.96px;
   background: #FFFFFF;
   border: 1px solid #FFFFFF;
+}
+
+/* eyeoutlineright */
+.eyeoutlineright {
+  position: absolute;
+  width: 123px;
+  height: 74px;
+  left: 634.97px;
+  top: 840px;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+
+/* nose */
+.nose {
+  position: absolute;
+  width: 81px;
+  height: 100px;
+  left: 507px;
+  top: 879px;
+  border-radius: 100px 100px 100px 100px;
+  background: #FFEEE9;
+  border: 1px solid #FFEEE9;
 }
 
 /* shadinglight */
@@ -107,9 +131,9 @@ h1 {
 .shadingdark {
   position: absolute;
   width: 178.99px;
-  height: 400.65px;
+  height: 424.01px;
   left: 233.1px;
-  top: 551.85px;
+  top: 528.49px;
 
   background: #EDD6D1;
 }
@@ -118,7 +142,7 @@ h1 {
 .eyebrow2 {
   position: absolute;
   width: 185px;
-  height: 66px;
+  height: 56px;
   left: 290px;
   top: 764px;
 

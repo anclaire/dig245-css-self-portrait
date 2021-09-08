@@ -15,6 +15,8 @@ Staaatliches Bauhaus (1919-1933)
     '.    __   ,'
       "-"!..--"
 
+
+:) guten tag!
 `;
 
 console.log(bauhaus);
