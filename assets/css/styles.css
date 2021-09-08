@@ -1,2 +1,237 @@
 
 /* css */
+h1 {
+  font-family: Arial;
+  color: #394E59;
+}
+
+.imagebox {
+  background-color: #FCDAD0;
+}
+
+
+/* hair */
+.hair {
+  position: absolute;
+  width: 806.07px;
+  height: 770.55px;
+  left: 119.36px;
+  top: 180.95px;
+  background: #394E59;
+}
+
+/* face */
+.face {
+  position: absolute;
+  width: 614.91px;
+  height: 424.01px;
+  left: 238.5px;
+  top: 528.49px;
+
+  background: #FFEEE9;
+  border: 1px solid #FFEEE9;
+}
+
+/* shadingleft */
+.shadingleft {
+  position: absolute;
+  width: 258.72px;
+  height: 250.99px;
+  left: 264.78px;
+  top: 701.51px;
+
+  background: #EDD6D1;
+}
+
+/* shadingright */
+.shadingright {
+  position: absolute;
+  width: 248.93px;
+  height: 196.41px;
+  left: 571px;
+  top: 784.71px;
+
+  background: #EDD6D1;
+}
+
+/* eyelash2 */
+.eyelash2 {
+  position: absolute;
+  width: 178px;
+  height: 82px;
+  left: 289px;
+  top: 837px;
+
+  background: #394E59;
+  border: 1px solid #394E59;
+}
+
+/* eyelash1 */
+.eyelash1 {
+  position: absolute;
+  width: 168.5px;
+  height: 77.65px;
+  left: 776.03px;
+  top: 837px;
+
+  background: #394E59;
+  border: 1px solid #394E59;
+  transform: matrix(-1, 0.07, 0.07, 1, 0, 0);
+}
+
+/* eyeoutlines */
+.eyeoutlines {
+  position: absolute;
+  width: 421.35px;
+  height: 82.39px;
+  left: 328.97px;
+  top: 843.96px;
+
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+
+/* shadinglight */
+.shadinglight {
+  position: absolute;
+  width: 178.39px;
+  height: 416.5px;
+  left: 673px;
+  top: 536px;
+
+  background: #FCF2F0;
+  border: 1px solid #FCF2F0;
+}
+
+/* shadingdark */
+.shadingdark {
+  position: absolute;
+  width: 178.99px;
+  height: 400.65px;
+  left: 233.1px;
+  top: 551.85px;
+
+  background: #EDD6D1;
+}
+
+/* eyebrow2 */
+.eyebrow2 {
+  position: absolute;
+  width: 185px;
+  height: 66px;
+  left: 290px;
+  top: 764px;
+
+  background: #394E59;
+  border-radius: 1px;
+}
+
+/* eyebrow1 */
+.eyebrow1 {
+  position: absolute;
+  width: 182px;
+  height: 54.83px;
+  left: 613px;
+  top: 761.01px;
+
+  background: #394E59;
+}
+
+/* iris2 */
+.iris2 {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  left: 666px;
+  top: 850px;
+
+  background: #4B6674;
+}
+
+/* pupil2 */
+.pupil2 {
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  left: 676px;
+  top: 856px;
+
+  background: #000000;
+}
+
+/* iris1 */
+.iris1 {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  left: 351px;
+  top: 845px;
+
+  background: #4B6674;
+}
+
+/* pupil1 */
+.pupil1 {
+  position: absolute;
+  width: 39px;
+  height: 39px;
+  left: 364px;
+  top: 850px;
+
+  background: #000000;
+}
+
+/* highlights */
+.highlights {
+  position: absolute;
+  width: 619.2px;
+  height: 464.5px;
+  left: 256.98px;
+  top: 183px;
+}
+
+/* eyedot2 */
+.eyedot2 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 396px;
+  top: 857px;
+
+  background: #FFFFFF;
+}
+
+/* eyedot1 */
+.eyedot1 {
+position: absolute;
+width: 6px;
+height: 6px;
+left: 705px;
+top: 861px;
+
+background: #FFFFFF;
+}
+
+/* wrinkle2 */
+.wrinkle2 {
+position: absolute;
+width: 242.71px;
+height: 23.1px;
+left: 420.67px;
+top: 731.46px;
+
+border: 3px solid rgba(216, 185, 178, 0.25);
+border-radius: 4px;
+}
+
+/* wrinkle1 */
+.wrinkle1 {
+position: absolute;
+width: 183.63px;
+height: 14.95px;
+left: 443.03px;
+top: 686.93px;
+
+border: 3px solid rgba(216, 185, 178, 0.25);
+border-radius: 4px;
+}

@@ -38,14 +38,14 @@ Complete the following to prepare for this assignment
 
 ## Instructions
 
-- [ ] Fork this repository and clone it to your `critical-web-design` folder on your machine.
+- [X] Fork this repository and clone it to your `critical-web-design` folder on your machine.
 
 #### Design
 
-- [ ] Plan your process and make sketches in [Figma](https://www.youtube.com/watch?v=AJK9NBGL5Bk)
-- [ ] Look for inspiration - [famous self-portraits](https://mymodernmet.com/famous-self-portraits/), Dribble [flat characters](https://dribbble.com/search/flat%20characters), [@musketon](https://www.instagram.com/musketon/), [@thomcat23](https://www.instagram.com/thomcat23/), [@thomas_danthony](https://www.instagram.com/thomas_danthony/), [@vector.mob](https://www.instagram.com/vector.mob/), [@cecierlich](https://www.instagram.com/cecierlich/),
+- [X] Plan your process and make sketches in [Figma](https://www.youtube.com/watch?v=AJK9NBGL5Bk)
+- [X] Look for inspiration - [famous self-portraits](https://mymodernmet.com/famous-self-portraits/), Dribble [flat characters](https://dribbble.com/search/flat%20characters), [@musketon](https://www.instagram.com/musketon/), [@thomcat23](https://www.instagram.com/thomcat23/), [@thomas_danthony](https://www.instagram.com/thomas_danthony/), [@vector.mob](https://www.instagram.com/vector.mob/), [@cecierlich](https://www.instagram.com/cecierlich/),
 [@owendaveydraws](https://www.instagram.com/owendaveydraws/), [@mister_fred_berlin](https://www.instagram.com/mister_fred_berlin/), [@nina_dzyvulska](https://www.instagram.com/nina_dzyvulska/), [@eezy](https://www.instagram.com/eezy/), [abstractbrowsing.net](http://www.abstractbrowsing.net), [species-in-pieces.com](http://species-in-pieces.com/), [Form Art](http://www.c3.hu/collection/form/), [Lorna Mills](https://www.instagram.com/lorna.mills/?hl=en)
-- [ ] For example, try drawing over an image of yourself in [Figma](https://figma.com) with the shape tool, choosing colors as you do. (feel free to experiment an find your own method!)
+- [X] For example, try drawing over an image of yourself in [Figma](https://figma.com) with the shape tool, choosing colors as you do. (feel free to experiment an find your own method!)
 
 #### Code
 
