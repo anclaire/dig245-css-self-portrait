@@ -11,14 +11,24 @@ h1 {
 
 
 /* hair */
-.hair {
+.hairleft {
   position: absolute;
   width: 806.07px;
-  height: 750px;
-  left: 119.36px;
-  top: 200.95px;
+  height: 624px;
+  left: 130.36px;
+  top: 327.95px;
   background: #394E59;
-  border-radius: 340px;
+  border-radius: 3600px 3600px 100px 100px;
+}
+
+.hairright {
+  position: absolute;
+  width: 806.07px;
+  height: 624px;
+  left: 130.36px;
+  top: 327.95px;
+  background: #394E59;
+  border-radius: 3600px 3600px 100px 100px;
 }
 
 /* face */
@@ -31,6 +41,7 @@ h1 {
 
   background: #FFEEE9;
   border: 1px solid #FFEEE9;
+  border-radius: 3600px 3600px 100px 100px;
 }
 
 /* shadingleft */
@@ -56,14 +67,15 @@ h1 {
 }
 
 /* eyelashleft */
+/* No idea how to transform so that it flips x and y. Tried to transform with matrix and nothing happened. */
 .eyelashleft {
   position: absolute;
-  width: 178px;
+  width: 136px;
   height: 82px;
-  left: 299px;
-  top: 837px;
-  transform: matrix(-1, -0.01, 0.2, 1, 0, 0);
-
+  left: 306px;
+  top: 831px;
+  transform: matrix(1, .25, .25, -.95, 0, 1);
+  border-radius: 90px 360px;
   background: #394E59;
   border: 1px solid #394E59;
 }
@@ -71,45 +83,50 @@ h1 {
 /* eyelashright */
 .eyelashright {
   position: absolute;
-  width: 168.5px;
-  height: 77.65px;
-  left: 610.03px;
-  top: 837px;
-  transform: matrix(-1, 0.01, -0.2, 1, 0, 0);
-
+  width: 136px;
+  height: 83px;
+  left: 635.03px;
+  top: 831px;
+  transform: matrix(1, .25, -.25, .95, 0, 0);
+  border-radius: 360px 90px;
   background: #394E59;
   border: 1px solid #394E59;
 }
 
 /* eyeoutlineleft */
+/* No idea how to transform so that it flips x and y. Tried to transform with matrix and nothing happened. */
 .eyeoutlineleft {
   position: absolute;
   width: 123px;
   height: 75px;
   left: 324.97px;
-  top: 842.96px;
+  top: 840px;
   background: #FFFFFF;
   border: 1px solid #FFFFFF;
+  border-radius: 360px 60px;
+  transform: matrix(-1, -.25, 0.3, -.95, 0, 0);
 }
 
 /* eyeoutlineright */
 .eyeoutlineright {
   position: absolute;
   width: 123px;
-  height: 74px;
-  left: 634.97px;
+  height: 75px;
+  left: 636.97px;
   top: 840px;
   background: #FFFFFF;
   border: 1px solid #FFFFFF;
+  border-radius: 360px 60px;
+  transform: matrix(1, .25, -0.3, .95, 0, 0);
 }
 
 /* nose */
 .nose {
   position: absolute;
   width: 81px;
-  height: 100px;
-  left: 507px;
-  top: 879px;
+  height: 58px;
+  left: 515px;
+  top: 909px;
   border-radius: 100px 100px 100px 100px;
   background: #FFEEE9;
   border: 1px solid #FFEEE9;
@@ -118,47 +135,46 @@ h1 {
 /* shadinglight */
 .shadinglight {
   position: absolute;
-  width: 178.39px;
-  height: 416.5px;
-  left: 673px;
-  top: 536px;
-
+  width: 249.39px;
+  height: 396.5px;
+  left: 608px;
+  top: 556px;
   background: #FCF2F0;
   border: 1px solid #FCF2F0;
+  border-radius: 0px 40000px 20px 20px;
 }
 
 /* shadingdark */
 .shadingdark {
   position: absolute;
-  width: 178.99px;
-  height: 424.01px;
-  left: 233.1px;
+  width: 299.99px;
+  height: 425px;
+  left: 234.1px;
   top: 528.49px;
-
   background: #EDD6D1;
+  border-radius: 36000px 200px 20px 20px;
 }
 
 /* eyebrow2 */
 .eyebrow2 {
   position: absolute;
-  width: 185px;
-  height: 56px;
+  width: 204px;
+  height: 48px;
   left: 290px;
   top: 764px;
-
   background: #394E59;
-  border-radius: 1px;
+  border-radius: 360px;
 }
 
 /* eyebrow1 */
 .eyebrow1 {
   position: absolute;
-  width: 182px;
-  height: 54.83px;
+  width: 204px;
+  height: 48px;
   left: 613px;
   top: 761.01px;
-
   background: #394E59;
+  border-radius: 360px;
 }
 
 /* iris2 */
@@ -168,7 +184,7 @@ h1 {
   height: 61px;
   left: 666px;
   top: 850px;
-
+  border-radius: 360px;
   background: #4B6674;
 }
 
@@ -179,7 +195,7 @@ h1 {
   height: 39px;
   left: 676px;
   top: 856px;
-
+  border-radius: 360px;
   background: #000000;
 }
 
@@ -189,8 +205,8 @@ h1 {
   width: 61px;
   height: 61px;
   left: 351px;
-  top: 845px;
-
+  top: 850px;
+  border-radius: 360px;
   background: #4B6674;
 }
 
@@ -200,8 +216,8 @@ h1 {
   width: 39px;
   height: 39px;
   left: 364px;
-  top: 850px;
-
+  top: 856px;
+  border-radius: 360px;
   background: #000000;
 }
 
@@ -221,7 +237,7 @@ h1 {
   height: 6px;
   left: 396px;
   top: 857px;
-
+  border-radius: 360px;
   background: #FFFFFF;
 }
 
@@ -231,8 +247,8 @@ position: absolute;
 width: 6px;
 height: 6px;
 left: 705px;
-top: 861px;
-
+top: 857px;
+border-radius: 360px;
 background: #FFFFFF;
 }
 
