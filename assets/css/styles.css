@@ -13,22 +13,79 @@ h1 {
 /* hair */
 .hairleft {
   position: absolute;
-  width: 806.07px;
-  height: 624px;
-  left: 130.36px;
-  top: 327.95px;
+  width: 691px;
+  height: 543px;
+  left: 150.36px;
+  top: 409.95px;
   background: #394E59;
-  border-radius: 3600px 3600px 100px 100px;
+  border-radius: 3600px 2900px 100px 100px;
 }
 
 .hairright {
   position: absolute;
-  width: 806.07px;
-  height: 624px;
-  left: 130.36px;
-  top: 327.95px;
+  width: 258px;
+  height: 478px;
+  left: 705.36px;
+  top: 476.95px;
   background: #394E59;
-  border-radius: 3600px 3600px 100px 100px;
+  border-radius: 360px 3600px 100px 100px;
+}
+
+/* highlights */
+.highlights1 {
+  position: absolute;
+  width: 514.2px;
+  height: 530.5px;
+  left: 175.98px;
+  top: 419px;
+  border: 1px solid #4B6674;
+  border-radius: 360px 120px 0px 0px;
+}
+.highlights2 {
+  position: absolute;
+  width: 496.2px;
+  height: 505.5px;
+  left: 193.98px;
+  top: 445px;
+  border: 1px solid #4B6674;
+  border-radius: 360px 110px 0px 0px;
+}
+.highlights3 {
+  position: absolute;
+  width: 480.2px;
+  height: 475.5px;
+  left: 208.98px;
+  top: 474px;
+  border: 1px solid #4B6674;
+  border-radius: 360px 90px 0px 0px;
+}
+
+.highlights4 {
+  position: absolute;
+  width: 199.2px;
+  height: 400.5px;
+  left: 688.98px;
+  top: 548px;
+  border: 1px solid #4B6674;
+  border-radius: 40px 360px 0px 0px;
+}
+.highlights5 {
+  position: absolute;
+  width: 226.2px;
+  height: 414.5px;
+  left: 686.98px;
+  top: 535px;
+  border: 1px solid #4B6674;
+  border-radius: 80px 360px 0px 0px;
+}
+.highlights6 {
+  position: absolute;
+  width: 240.2px;
+  height: 438.5px;
+  left: 691.98px;
+  top: 508px;
+  border: 1px solid #4B6674;
+  border-radius: 120px 360px 0px 0px;
 }
 
 /* face */
@@ -219,15 +276,6 @@ h1 {
   top: 856px;
   border-radius: 360px;
   background: #000000;
-}
-
-/* highlights */
-.highlights {
-  position: absolute;
-  width: 619.2px;
-  height: 464.5px;
-  left: 256.98px;
-  top: 183px;
 }
 
 /* eyedot2 */
