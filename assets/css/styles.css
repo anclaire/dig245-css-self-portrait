@@ -1,12 +1,27 @@
 
 /* css */
 h1 {
-  font-family: Arial;
+  font-family: Georgia;
   color: #394E59;
+}
+.background {
+  background-color: #FCDAD0;
+  position: absolute;
+  width: 879px;
+  height: 741px;
+  left: 79px;
+  top: 100px;
+  box-sizing: border-box;
+  border-radius: 81px;
+  margin: auto;
 }
 
 .imagebox {
-  background-color: #FCDAD0;
+  position: absolute;
+  width: 957px;
+  height: 928px;
+  left: -40px;
+  top: -132px;
 }
 
 
@@ -129,9 +144,9 @@ h1 {
   position: absolute;
   width: 136px;
   height: 82px;
-  left: 306px;
+  left: 313px;
   top: 831px;
-  transform: matrix(1, .25, .25, -.95, 0, 1);
+  transform: rotate(164deg) scaleX(1);
   border-radius: 90px 360px;
   background: #394E59;
   border: 1px solid #394E59;
@@ -144,7 +159,7 @@ h1 {
   height: 83px;
   left: 635.03px;
   top: 831px;
-  transform: matrix(1, .25, -.25, .95, 0, 0);
+  transform: rotate(198deg) scaleY(1);
   border-radius: 360px 90px;
   background: #394E59;
   border: 1px solid #394E59;
@@ -161,7 +176,7 @@ h1 {
   background: #FFFFFF;
   border: 1px solid #FFFFFF;
   border-radius: 360px 60px;
-  transform: matrix(-1, -.25, 0.3, -.95, 0, 0);
+  transform: rotate(160deg) scaleX(-1);
 }
 
 /* eyeoutlineright */
@@ -174,7 +189,7 @@ h1 {
   background: #FFFFFF;
   border: 1px solid #FFFFFF;
   border-radius: 360px 60px;
-  transform: matrix(1, .25, -0.3, .95, 0, 0);
+  transform: rotate(200deg) scaleY(1);
 }
 
 /* nose */
@@ -212,26 +227,29 @@ h1 {
   border-radius: 36000px 200px 20px 20px;
 }
 
-/* eyebrow2 */
+/* eyebrows */
 .eyebrow2 {
   position: absolute;
-  width: 204px;
+  width: 177px;
   height: 48px;
-  left: 290px;
-  top: 764px;
-  background: #394E59;
-  border-radius: 360px;
+  left: 268px;
+  top: 761px;
+  border: solid 34px #394E59;
+  border-color: #394E59 transparent transparent transparent;
+  border-radius: 100%/100px 100px 100px 100px;
+  transform: rotate(354deg);
 }
 
-/* eyebrow1 */
 .eyebrow1 {
   position: absolute;
-  width: 204px;
+  width: 177px;
   height: 48px;
-  left: 613px;
-  top: 761.01px;
-  background: #394E59;
-  border-radius: 360px;
+  left: 592px;
+  top: 761px;
+  border: solid 34px #394E59;
+  border-color: #394E59 transparent transparent transparent;
+  border-radius: 100%/100px 100px 100px 100px;
+  transform: rotate(6deg);
 }
 
 /* iris2 */
@@ -291,35 +309,59 @@ h1 {
 
 /* eyedot1 */
 .eyedot1 {
-position: absolute;
-width: 6px;
-height: 6px;
-left: 705px;
-top: 857px;
-border-radius: 360px;
-background: #FFFFFF;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 705px;
+  top: 857px;
+  border-radius: 360px;
+  background: #FFFFFF;
 }
 
 /* wrinkle2 */
 .wrinkle2 {
-position: absolute;
-width: 242.71px;
-height: 23.1px;
-left: 420.67px;
-top: 731.46px;
-
-border: 3px solid rgba(216, 185, 178, 0.25);
-border-radius: 4px;
+  position: absolute;
+  width: 242.71px;
+  height: 23.1px;
+  left: 420.67px;
+  top: 731.46px;
+  border: 3px solid rgba(216, 185, 178, 0.25);
+  border-radius: 4px;
 }
 
 /* wrinkle1 */
 .wrinkle1 {
-position: absolute;
-width: 183.63px;
-height: 14.95px;
-left: 443.03px;
-top: 686.93px;
-
-border: 3px solid rgba(216, 185, 178, 0.25);
-border-radius: 4px;
+  position: absolute;
+  width: 183.63px;
+  height: 14.95px;
+  left: 443.03px;
+  top: 686.93px;
+  border: 3px solid rgba(216, 185, 178, 0.25);
+  border-radius: 4px;
 }
+
+.frame {
+  border: 33px solid #B07564;
+  position: absolute;
+  width: 879px;
+  height: 741px;
+  left: 119px;
+  top: 232px;
+  box-sizing: border-box;
+  border-radius: 76px;
+  margin: auto;
+}
+
+/*
+.crease{
+  width: 123px;
+  height: 75px;
+  left: 324.97px;
+  top: 840px;
+  margin: -65px 0 0 -90px;
+  position: absolute;
+  transform: skew(45deg);
+  width: 80px;
+  color: rgba(216, 185, 178, 0.25);
+}
+Might not be able to figure this one out*/

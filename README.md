@@ -50,7 +50,7 @@ Complete the following to prepare for this assignment
 #### Code
 
 - [ ] Use HTML, CSS, and JS to code your design inside `index.html`
-- [ ] Create those elements with HTML `<div>` tags
+- [X] Create those elements with HTML `<div>` tags
 - [ ] Use CSS properties to adjust the color, position, rotation, height, width, z-index, etc. of your elements
 - [ ] Use only HTML and CSS for graphics; Do not add image or SVG files to the code.
 - [ ] Use Javascript to display the current mouse `x`,`y` positions on the page.
