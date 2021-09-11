@@ -5,7 +5,7 @@ h1 {
   color: #394E59;
 }
 .background {
-  background-color: #FCDAD0;
+  background-color: #FFEEE9;
   position: absolute;
   width: 879px;
   height: 741px;
@@ -351,17 +351,3 @@ h1 {
   border-radius: 76px;
   margin: auto;
 }
-
-/*
-.crease{
-  width: 123px;
-  height: 75px;
-  left: 324.97px;
-  top: 840px;
-  margin: -65px 0 0 -90px;
-  position: absolute;
-  transform: skew(45deg);
-  width: 80px;
-  color: rgba(216, 185, 178, 0.25);
-}
-Might not be able to figure this one out*/

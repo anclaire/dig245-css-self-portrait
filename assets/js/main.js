@@ -15,8 +15,8 @@ Staaatliches Bauhaus (1919-1933)
     '.    __   ,'
       "-"!..--"
 
-
-:) guten tag!
 `;
 
 console.log(bauhaus);
+
+console.log('My potrait looks really sad, but that was an accident. Dont know how to make it look happier...');
