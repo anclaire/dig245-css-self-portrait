@@ -53,7 +53,7 @@ Complete the following to prepare for this assignment
 - [X] Create those elements with HTML `<div>` tags
 - [X] Use CSS properties to adjust the color, position, rotation, height, width, z-index, etc. of your elements
 - [X] Use only HTML and CSS for graphics; Do not add image or SVG files to the code.
-- [ ] Use Javascript to display the current mouse `x`,`y` positions on the page.
+- [X] Use Javascript to display the current mouse `x`,`y` positions on the page.
 - [X] Use Javascript to store and log the total number of HTML elements you used in your portrait using [`querySelectorAll()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll).  
 
 #### Publish
@@ -61,7 +61,7 @@ Complete the following to prepare for this assignment
 - [X] [Save and refresh](https://github.com/omundy/learn-computing/blob/main/topics-keyboard-shortcuts.md#web-development-edit-save-refresh-loop) your work in the browser often to see your changes.
 - [X] Commit changes regularly.
 - [X] Confirm valid [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) <sup>[(?)](https://github.com/omundy/dig245-critical-web-design/blob/main/reference-sheets/css.md#css-validation)</sup>
-- [ ] When finished, [push, publish, and post your project](https://docs.google.com/document/d/17U_zmzM_eML_qkG0PaOdDRcEk3YEmbiQ1TyNnbAM08k/edit#bookmark=id.8jryplv1i8a)
+- [X] When finished, [push, publish, and post your project](https://docs.google.com/document/d/17U_zmzM_eML_qkG0PaOdDRcEk3YEmbiQ1TyNnbAM08k/edit#bookmark=id.8jryplv1i8a)
 
 
 
